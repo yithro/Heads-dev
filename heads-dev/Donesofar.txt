@@ -1,0 +1,5 @@
+vue init w/ webpack
+npm i
+npm save firebase + set up of FB config in main.js incl. activation of firestore (assigned to a 'db' var but it does not work as firestore() function is not recognized, chec if necessay, maybe it can connect directly)
+npm save vuex + imported and added to the Vue object
+npm save vue-material + imported and added to the Vue object
