@@ -25,13 +25,14 @@ firebase.initializeApp(config);
 
 Vue.config.productionTip = false;
 
+// I added vuex and VueMaterial (not sure VueMaterial will be usefuul, delete if necessary)
+Vue.use(vuex);
+Vue.use(VueMaterial);
+
 /* eslint-disable no-new */
 new Vue({
   el: "#app",
   router,
-  // I added vuex and VueMaterial (hope this works !!!) alternate is Vue.use(vuex) and Vue.use(VueMaterial)
-  vuex,
-  VueMaterial,
   template: "<App/>",
   components: { App }
 });

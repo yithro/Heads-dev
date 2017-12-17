@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <span>  Hello from the App component </span>
-   </div>
+  <router-view>LandingView</router-view>
+  </div>
 </template>
 
 <script>
@@ -10,8 +10,6 @@ export default {
 };
 </script>
 
-<style>
-#app {
-  margin-top: 60px;
-}
+<style scoped>
+
 </style>

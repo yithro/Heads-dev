@@ -1,0 +1,242 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Design Lite template -->
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <title>acquisition-card</title>
+</head>
+<!-- Wide card with share menu button -->
+<style>
+    body {
+        font-size: 14px;
+        font-family: "Roboto";
+        font-weight: 400;
+    }
+
+    .em1 {
+        font-size: 1em;
+    }
+
+    .em12 {
+        font-size: 1.2em;
+    }
+
+    .em14 {
+        font-size: 1.4em;
+    }
+
+    .em16 {
+        font-size: 1.6em;
+    }
+
+    .em18 {
+        font-size: 1.8em;
+    }
+
+    .em2 {
+        font-size: 2em;
+    }
+
+    table {
+        border-spacing: 0.4rem;
+        font-size: 1.06em;
+    }
+
+    td {
+        text-align: left;
+    }
+
+    tr td:first-child {
+        padding-right: 30px;
+        color: #808080
+    }
+
+    .border {
+        border-style: solid
+    }
+
+    .float {
+        float: left
+    }
+
+    .margin {
+        margin-right: 5px;
+    }
+
+    .flexalign {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+    }
+
+    .center {
+        margin: 0 auto;
+    }
+
+    .padding {
+        padding-left: 25px;
+    }
+
+    .square {
+        position: relative;
+        text-align: center;
+        width: 20%;
+    }
+
+    .square:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+
+    .content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .flexitem {
+        align-self: start
+    }
+
+    .radius {
+        border-radius: 4px
+    }
+
+    .image {
+        background: url('logo/YT2.png') center / cover
+    }
+
+    .lineheight {
+        line-height: 160%;
+    }
+
+    .titleheight {
+        max-height: 3%
+    }
+
+    .titletwoheight {
+        max-height: 1%
+    }
+
+    .headerbg {
+        background-color: #f0f0f5
+    }
+
+    .flexshrink {
+        flex-shrink: 0
+    }
+
+    .flexdown {
+        align-self: baseline
+    }
+
+    .butflex {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+</style>
+
+
+<body>
+
+    <div class="mdl-grid">
+
+        <div class="mdl-card mdl-cell--6-col center mdl-shadow--2dp">
+
+
+            <div class="mdl-card__title titleheight  mdl-card--border headerbg ">
+                M&A Transaction
+            </div>
+            <div class="mdl-card__title  ">
+                Acquired
+            </div>
+            <div class="flexalign  ">
+                <div class="mdl-card__title mdl-cell--3-col square flexshrink radius flexitem ">
+                    <div class="content image radius flexdown">
+                    </div>
+                </div>
+                <div class="mdl-card__title mdl-cell--9-cols">
+                    <div class="lineheight padding">
+                        <b class="em12">Youtube</b>
+                        <br> Streaming platform
+                        <br> US
+
+                    </div>
+                </div>
+            </div>
+            <div class="mdl-card__supporting-text ">
+                <table>
+                    <tr>
+                        <td>Categories</td>
+                        <td>Entertainment, Social Network</td>
+                    </tr>
+                    <tr>
+                        <td>Foundation Date</td>
+                        <td>2002</td>
+                    </tr>
+                    <tr>
+                        <td>Founded by</td>
+                        <td>Wang Wu, Mark Ryan</td>
+                    </tr>
+                    <tr>
+                        <td>Number of emploees</td>
+                        <td>1,000 - 2,000</td>
+                    </tr>
+                    <tr>
+                        <td>Operating status</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td>Website</td>
+                        <td>
+                            <a href="http://youtube.com">Youtube</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>lindedIn</td>
+                        <td>
+                            <a href="http://linkedin.com">LinkedIn</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="mdl-card__title  ">
+            </div>
+            <div class="mdl-card__actions headerbg butflex">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
+                    Funding record
+                </a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
+                    Acquisitions
+                </a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
+                    Acquired by
+                </a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
+                    Tech stack
+                </a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
+                    Jobs
+                </a>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
+                    Main investors
+                </a>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
